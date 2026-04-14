@@ -93,7 +93,7 @@ switch ($acao) {
         //$fabrica->listarCarros();
         break;
 
-    case 'form_vender':
+    /*case 'form_vender':
         echo "<h2>💸 Vender um carro</h2>";
         echo "<p>Informe <b>modelo</b> e <b>cor</b> do carro a ser vendido.</p>";
 
@@ -108,7 +108,8 @@ switch ($acao) {
             <input type="text" name="cor" required><br><br>
 
             <button type="submit">Vender</button>
-        </form>';
+        </form>';  */
+        
 
         echo "<hr>";
         $fabrica->listarCarros();
@@ -158,9 +159,11 @@ switch ($acao) {
         $fabrica->listarCarros();
         break;
 
-    case 'listar':
+    /*   case 'listar':
         $fabrica->listarCarros();
-        break;
+        break;*/
+    
+       
 
     case 'sair':
         session_destroy();
