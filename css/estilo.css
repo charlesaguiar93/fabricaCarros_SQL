@@ -44,3 +44,126 @@ button:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     margin-top: 20px;
 }   
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #0778e9;
+    color: rgb(182, 29, 29);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    background: url('imgs/queen-banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #f39c12;
+    border-color: #e67e22;
+}
+
+.btn-primary:hover {
+    background-color: #e67e22;
+    border-color: #d35400;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    background: url('imgs/queen-banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #f39c12;
+    border-color: #e67e22;
+}
+
+.btn-primary:hover {
+    background-color: #e67e22;
+    border-color: #d35400;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+
+.jumbotron {
+    background: url('imgs/queen-banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #f39c12;
+    border-color: #e67e22;
+}
+
+.btn-primary:hover {
+    background-color: #e67e22;
+    border-color: #d35400;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}

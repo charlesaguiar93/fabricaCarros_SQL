@@ -19,7 +19,7 @@ include 'conexao.php';
 
     <p><a href="index.html"> 🔚Voltar ao menu</a></p>
     <div class="container mt-5">
-        <h2>📋 Estoque atual</h2>
+        <h2><i class="bi bi-card-checklist"></i> Estoque atual</h2>
 
         <?php
         $stmt = $pdo->query("SELECT * FROM listar_estoque");

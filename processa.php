@@ -29,34 +29,7 @@ echo '<p><a href="index.html"> 🔚Voltar ao menu</a></p>';
 
 switch ($acao) {
 
-    //case 'form_fabricar':
-      /* echo '
-         
    
-         <div class="card card-custom border-info bg-light  border-info">
-             <div class="card-body" >
-             <h2>🏭 Fabricar carros🚙</h2>
-        <form method="POST" action="processa.php" class="form-group">
-            <input type="hidden" name="acao" value="fabricar">
-
-            <label>Modelo:</label>
-            <input type="text" name="modelo" required><br><br>
-
-            <label>Cor:</label>
-            <input type="text" name="cor" required><br><br>
-
-            <label>Quantidade:</label>
-            <input type="number" name="quantidade" min="1" required><br><br>
-
-            <button type="reset">Limpar</button>
-            <button type="submit">Fabricar</button>
-        </form>'; 
-      */
-         // echo "<h2>🏭 Fabricar carros🚙</h2>";
-        
-     
-
-       // break;
 
     case 'fabricar':
 
@@ -89,26 +62,10 @@ switch ($acao) {
   echo "<p>✅ {$quantidade} carro(s) {$modelo}, {$cor} salvo(s) no banco!</p>";
 
 
-      //  echo "<p>✅ Fabricados <b>{$quantidade}</b> carro(s) — Modelo: <b>{$modelo}</b>, Cor: <b>{$cor}</b>.</p>";
-        //$fabrica->listarCarros();
+      
         break;
 
-    /*case 'form_vender':
-        echo "<h2>💸 Vender um carro</h2>";
-        echo "<p>Informe <b>modelo</b> e <b>cor</b> do carro a ser vendido.</p>";
-
-        echo '
-        <form method="POST" action="processa.php">
-            <input type="hidden" name="acao" value="vender">
-
-            <label>Modelo:</label>
-            <input type="text" name="modelo" required><br><br>
-
-            <label>Cor:</label>
-            <input type="text" name="cor" required><br><br>
-
-            <button type="submit">Vender</button>
-        </form>';  */
+    
         
 
         echo "<hr>";

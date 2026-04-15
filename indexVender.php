@@ -18,7 +18,7 @@ require_once __DIR__ . '/conexao.php';
 <body>
  <p><a href="index.html"> 🔚Voltar ao menu</a></p>
 <div class="container mt-5">
-    <h2>💸 Vender um carro</h2>
+    <h2><i class="bi bi-piggy-bank"></i> Vender um carro</h2>
     <p>Informe <b>modelo</b> e <b>cor</b> do carro a ser vendido.</p>
 
     <form method="POST" action="processa.php">
@@ -39,7 +39,7 @@ require_once __DIR__ . '/conexao.php';
 
     <hr>
 
-    <h3>📋 Estoque atual</h3>
+    <h3><i class="bi bi-card-checklist"></i> Estoque atual</h3>
 
     <?php
     $stmt = $pdo->query("SELECT * FROM listar_estoque");
@@ -55,7 +55,9 @@ require_once __DIR__ . '/conexao.php';
             </tr>
         </thead>
         <tbody>
-            <?php foreach ($stmt as $row): ?>
+            
+        <!-- foreach ($stmt as $row): Retira as linhas do banco de dados e imprimi no foreach  -->
+        <?php foreach ($stmt as $row): ?>
                 <tr>
                     <td><?= $row['id']; ?></td>
                     <td><?= $row['modelo']; ?></td>
